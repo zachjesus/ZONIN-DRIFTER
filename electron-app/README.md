@@ -1,6 +1,6 @@
 # electron-app
 
-A minimal Electron application with TypeScript
+A Sampler Synth Electron application with TypeScript
 
 ## Recommended IDE Setup
 
