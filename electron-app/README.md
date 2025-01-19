@@ -1,4 +1,4 @@
-# electron-app
+# ZONIN-DRIFTER
 
 A Sampler Synth Electron application with TypeScript
 
