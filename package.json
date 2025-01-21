@@ -1,7 +1,7 @@
 {
-  "name": "electron-app",
+  "name": "zonin-drifter",
   "version": "1.0.0",
-  "description": "A minimal Electron application with TypeScript",
+  "description": "A Synth Sampler Electron application with TypeScript",
   "main": "./out/main/index.js",
   "author": "example.com",
   "homepage": "https://electron-vite.org",
