@@ -1,6 +1,10 @@
+import { Makenoise } from "../../synth/synth";
+
 function init(): void {
   window.addEventListener('DOMContentLoaded', () => {
     doAThing()
+    let noise = new Makenoise();
+    noise.noise();
   })
 }
 
@@ -8,7 +12,7 @@ function doAThing(): void {
   const versions = window.electron.process.versions
   replaceText('.electron-version', `Electron v${versions.electron}`)
   replaceText('.chrome-version', `Chromium v${versions.chrome}`)
-  replaceText('.node-version', `Node v${versions.node}`)
+  replaceText('.node-version', `bruh`)
 
   const ipcHandlerBtn = document.getElementById('ipcHandler')
   ipcHandlerBtn?.addEventListener('click', () => {
